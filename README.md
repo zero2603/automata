@@ -1,6 +1,6 @@
 # automata
 
-C�c tr??ng h?p h?p l?: 
+Các trường hợp hợp lệ: 
 "CV 1-10" 
 "CV       1-10"
 "CV 1-10      "
@@ -8,5 +8,5 @@ C�c tr??ng h?p h?p l?:
 "VC    1-3"
 "VC 1-3       "
 
-C�c tr??ng h?p kh�ng h?p l?: C�c tr??ng h?p c�n l?i  :)
-L?u � khi nh?p t? s? h?p l? l� t? s? kh�ng ch?a d?u c�ch. VD: "1-10". 
+Các trường hợp không hợp lệ: Các trường hợp còn lại  :)
+Lưu ý khi nhập tỷ số phải không chứa dấu cách. VD: "1-10". 
