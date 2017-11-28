@@ -17,4 +17,8 @@ public class State4 extends State2{
             default: return 10;
         }
     }
+    
+    public void show(){
+        System.out.println("4");
+    }
 }

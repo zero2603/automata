@@ -13,7 +13,7 @@ public class State8 extends State7{
     @Override
     public int getNext(char c){
         if((c >='0' && c<='9') || c=='\u0000') return 8;
-        else if(c==' ') return 9;
+        else if(c=='-') return 9;
         else return 10;
     }
     

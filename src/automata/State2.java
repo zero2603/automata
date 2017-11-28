@@ -14,7 +14,10 @@ public class State2 extends State0{
     public int getNext(char c){
         switch(c){
             case 'C': return 4;
-            default: return 10; 
+            default: {
+                System.out.println("saaaaaaaaaaaaaa");
+                return 10;
+            } 
         }
     }
     

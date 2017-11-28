@@ -34,6 +34,8 @@ public class Automata {
             s = getState(nextState);
 //            s.show();
         }
+        nextState = s.getNext('\u0000');
+        s = getState(nextState);
         s.show();
     }
     

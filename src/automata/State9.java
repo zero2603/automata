@@ -12,11 +12,8 @@ package automata;
 public class State9 extends State0{
     @Override
     public int getNext(char c){
-        switch(c){
-            case ' ': 
-            case '\u0000': return 9;
-            default: return 10;
-        }
+        if(c>='0' && c<='9') return 10;
+        else return 9;
     }
     
     @Override
